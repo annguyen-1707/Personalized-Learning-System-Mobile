@@ -1,0 +1,88 @@
+# Operating system and temporary files
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+.DS_Store
+Thumbs.db
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+*.local
+secrets.json
+google-services.json
+GoogleService-Info.plist
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.packages
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android generated files and signing credentials
+/android/.gradle/
+/android/captures/
+/android/local.properties
+/android/key.properties
+/android/**/GeneratedPluginRegistrant.java
+/android/**/.cxx/
+**/*.keystore
+**/*.jks
+
+# Apple generated files
+**/Pods/
+**/.symlinks/
+**/DerivedData/
+**/xcuserdata/
+**/Flutter/ephemeral/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+**/Runner/GeneratedPluginRegistrant.*
+
+# Desktop generated files
+**/flutter/ephemeral/
+**/generated_plugin_registrant.*
+**/generated_plugins.cmake
+
+# Test and profiling output
+test-results/
+integration_test/screenshots/
